@@ -1,0 +1,10 @@
+        local name = "Sun"
+        local e = true
+        if e == true then
+        e = false
+        if game.Players.LocalPlayer.Backpack:FindFirstChild(name) then
+        local thetool = game.Players.LocalPlayer.Backpack:FindFirstChild(name)
+        thetool.Parent = game.Players.LocalPlayer.Character
+        else
+    end
+    end
